@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan David Valdes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header id="main-header">
+        <div class="header-image">
+            <img src="images/FOTO HDV JUAN DAVID VALDES.jpg" alt="Imagen de Juan David Valdes">
+        </div>
+        <div class="header-content">
+            <h1>Juan David Valdes</h1>
+            <p>Ingeniero de Sistemas | Desarrollador Web</p>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/davidvaldes10" target="_blank">
+                <img src="images/instagram-icon.png" alt="Instagram">
+            </a>
+            <a href="https://www.linkedin.com/in/juan-david-valdes-prieto-07b3132ba" target="_blank">
+                <img src="images/linkedin-icon.png" alt="LinkedIn">
+            </a>
+            <a href="https://github.com/davidvaldes10" target="_blank">
+                <img src="images/github-icon.png" alt="GitHub">
+            </a>
+        </div>
+        
+    </header>
+
+    <nav id="main-nav">
+        <div class="container">
+            <div class="menu-icon" id="menu-icon">&#9776;</div>
+            <ul id="menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#informacion">Sobre mí</a></li>
+                <li><a href="#portafolio">Portafolio</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <section id="inicio">
+            <h2>Inicio</h2>
+            <div class="card">
+                <p>Hola, mi nombre es Juan David, Soy estudiante de ingenieria de sistemas. Bienvenido a mi página personal donde comparto mis proyectos y experiencias.</p>
+            </div>
+        </section>
+
+        <section id="informacion">
+            <h2>Informacion</h2>
+            <div class="card">
+                <p>Tengo experiencia en desarrollo de aplicaciones web y inteligencia artificial. Me encanta aprender nuevas tecnologías y aplicar mis conocimientos para resolver problemas complejos.</p>
+            </div>
+        </section>
+
+        <section id="portafolio">
+            <h2>Portafolio</h2>
+            <div class="card">
+                <p>Aquí puedes ver algunos de mis proyectos destacados:</p>
+                <ul>
+                    <li><strong>Proyecto 1:</strong> Descripción del proyecto 1.</li>
+                    <li><strong>Proyecto 2:</strong> Descripción del proyecto 2.</li>
+                    <li><strong>Proyecto 3:</strong> Descripción del proyecto 3.</li>
+                </ul>
+                <button id="theme-toggle">Modo Oscuro</button>
+            </div>
+        </section>
+
+        <section id="testimonios">
+            <h2>Testimonios</h2>
+            <div class="testimonios-container">
+                <div class="testimonio">
+                    <div class="testimonio-content">
+                        <img src="images/testimonial1.jpg" alt="Foto de María García" class="testimonial-img">
+                        <div class="testimonio-text">
+                            <p>"Juan es un desarrollador excepcional, su trabajo superó nuestras expectativas."</p>
+                            <h4>- María García, CEO de TechCorp</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonio">
+                    <div class="testimonio-content">
+                        <img src="images/testimonial2.jpg" alt="Foto de Pedro López" class="testimonial-img">
+                        <div class="testimonio-text">
+                            <p>"La dedicación de Juan y su conocimiento en sistemas son impresionantes."</p>
+                            <h4>- Pedro López, Gerente de Innovación en Innovatech</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonio">
+                    <div class="testimonio-content">
+                        <img src="images/testimonial3.jpg" alt="Foto de Ana Rodríguez" class="testimonial-img">
+                        <div class="testimonio-text">
+                            <p>"Trabajar con Juan fue un placer, su profesionalismo es inigualable."</p>
+                            <h4>- Ana Rodríguez, Directora de Proyectos en WebSolutions</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- Agrega más testimonios aquí si lo deseas -->
+            </div>
+            <button class="prev-button" aria-label="Previous Testimonial">&#10094;</button>
+            <button class="next-button" aria-label="Next Testimonial">&#10095;</button>
+        </section>
+        
+        
+        
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <div class="card">
+                <p>Si deseas ponerte en contacto conmigo, por favor completa el siguiente formulario:</p>
+                <form action="send_email.php" method="POST">
+                    <input type="text" name="name" placeholder="Tu Nombre" required>
+                    <input type="email" name="_replyto" placeholder="Tu Email" required>
+                    <textarea name="message" rows="5" placeholder="Tu Mensaje" required></textarea>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <button id="dark-mode-toggle">Modo Oscuro</button>
+
+    <script src="main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
